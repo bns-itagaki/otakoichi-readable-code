@@ -1,0 +1,13 @@
+Anaconda promptコマンドリスト
+
+■ 環境構築
+conda create -n avilen-e python=3.9.7
+conda activate avilen-e
+cd ###requirements.txtのファイルパスを入力してください###
+pip install -r requirements.txt
+conda list
+conda activate avilen-e
+
+■ 実行
+cd (環境のルート)/src
+python readable_code.py
