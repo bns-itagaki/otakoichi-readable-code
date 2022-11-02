@@ -66,12 +66,14 @@ def output_dictionary_data():
     # 辞書の表示
     if dict_id is None:
         # 全ての辞書を表示
+        print(f"ユーザー名: {USER_DATA_LIST[0]}")
         for id in dict_id_list:
             print_dict_data(dict_data, id)
     else:
         # dict_idで指定されたものを表示
         if dict_id in dict_id_list:
             # 指定されたIDが存在する場合はそのIDの単語情報を表示
+            print(f"ユーザー名: {USER_DATA_LIST[0]}")
             print_dict_data(dict_data, dict_id)
         else:
             # 指定されたIDが存在しない場合はメッセージを表示
