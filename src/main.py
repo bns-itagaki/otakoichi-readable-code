@@ -19,7 +19,6 @@ def main():
     if len(args) > 0:
         dict_id = args[0]
 
-
     # 読み込んだ辞書データ格納用
     dic_data = dict()
 
