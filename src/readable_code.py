@@ -1,7 +1,7 @@
 import pathlib
 
 
-ROOT_DIR = pathlib.Path('./')
+ROOT_DIR = pathlib.Path('./../')
 DATA_DIR = ROOT_DIR / 'data'
 
 DICTIONARY_DATA = 'dictionary-data.txt'
