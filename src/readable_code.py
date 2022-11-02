@@ -11,8 +11,9 @@ def main():
     input_file_path = DATA_DIR / DICTIONARY_DATA
 
     with open(input_file_path, 'r', encoding='utf-8') as f:
-        s = f.read()
-        print(s)
+        lines = f.readlines()
+        for i, word in enumerate(lines):
+            print(f'{i}: {word.strip()}')
 
 
 if __name__ == '__main__':
